@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "lint": "eslint meadowlark3.js lib"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,11 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^25.5.4",
+    "portfinder": "^1.0.28",
+    "puppeteer": "^1.20.0"
   }
 }
